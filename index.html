@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ChubbyPaws Cybersports</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="css/chubbypaw.css">
+        <!-- CSS only -->
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div id="start" class="container">
+                    <!-- Будущий флекс-контейнер -->
+                    <div class="header_body">
+                        <a href="" class="header_logo">
+                            <img src="imgs/chubbypawlogov3_600px.png">
+                        </a>
+                        <div class="header_burger">
+                            <span></span>
+                        </div>
+                        <nav class="header_menu">
+                                <ul class="header_list">
+                                    <li>
+                                        <a href="#start" class="header_link">Главная</a>
+                                    </li>
+                                    <li>
+                                        <a href="#about" class="header_link">О нас</a>
+                                    </li>
+                                    <li>
+                                        <a href="#sponsors" class="header_link">спонсоры</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="header_link">Контакты</a>
+                                    </li>
+                                    <li>
+                                        <a href="#form" class="header_link">Партнёрство</a>
+                                    </li>
+                                </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <div class="content">
+            <div class="slider-container">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide card">
+                            <div class="image-slider_image">
+                                <img src="imgs/apexart.jpg" alt="пикча">
+                            </div>
+                        </div>
+                        <div class="swiper-slide card">
+                            <div class="image-slider_image">
+                                <img src="imgs/apexart2.jpg" alt="пикча">
+                            </div>
+                        </div>
+                        <div class="swiper-slide card">
+                            <div class="image-slider_image">
+                                <img src="imgs/apexart3.jpg" alt="пикча">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+                <div class="container">
+                        <div class="visitcard_wrapper" id="about">
+                            <header class="visitcard_header">ChubbyPaws Cybersports - это</header>
+                            <article class="main">
+                            <p>Организация профессиональных и любительских киберспортивных соревнований во множестве дисциплин</p>  
+                            </article>
+                            <article class="aside aside-1"><p>Прямые трансляции турниров с профессиональными и любительскими киберспортивными комментаторами</p></article>
+                            <article class="aside aside-2"><p>Сообщество любителей видеогр и киберспортивных состязаний со всех уголков мира</p></article>
+                        </div>
+                        <hr style="background-color: rgba(255, 0, 0, 0.64); height: 3px; margin-top: 10px; border-radius: 1px;">
+                        <div class="sponsor_wrapper">
+                            <header id="sponsors" class="sponsor_header">Наши спонсоры</header>
+                        </div>
+                        <div class="spopa">
+                            <a class="img_a" href="#"><img class="sponsor_img" src="imgs/sponsor1.png" alt="spons"></a>
+                            <a class="img_a" href="#"><img class="sponsor_img" src="imgs/sponsor2.png" alt="spons"></a>
+                        </div>
+                        <hr style="background-color: rgba(255, 0, 0, 0.64); height: 3px; margin-top: 10px; border-radius: 1px;">
+                        <div id="form" class="formcard_wrapper">
+                            <header class="formcard_header">Заполните форму ниже и станьте членом нашей организации!</header>
+                        </div>
+                        <form class="pipa">
+                            <p>Адрес вашей электронной почты:</p>
+                            <input type="text" placeholder="Email" required="*">
+                            <p>Ваш уровень игры:</p>
+                            <label>Новичок 
+                            <input type="radio" name="lvl" id="s1" value="1" checked> 
+                            <span></span>
+                            </label>
+                            <label>Любитель
+                            <input type="radio" name="lvl" id="s2" value="2">  
+                            <span></span>
+                            </label>
+                            <label>
+                            <input type="radio" name="lvl" id="s3" value="3"> Профессиональный киберспортсмен
+                            <span></span> 
+                            </label>
+                            <button class="formbutton" type="submit" name="submitbutt" onclick="alerted();">Готово!</button>
+                        </form>
+                        <hr style="background-color: rgba(255, 0, 0, 0.64); height: 3px; margin-top: 10px; border-radius: 1px;">
+                    <div class="content_text">
+                        <p> 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, eum nostrum illo ratione at maiores dolores quis repellat nobis corporis incidunt iste quo reiciendis, praesentium illum aperiam culpa consectetur minus?
+                        </p>
+                       
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, eum nostrum illo ratione at maiores dolores quis repellat nobis corporis incidunt iste quo reiciendis, praesentium illum aperiam culpa consectetur minus?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script src="js/chubbypaw.js"></script>
+        <script src="js/slider.js"></script>
+    </body>
+</html>
